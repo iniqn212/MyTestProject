@@ -1,0 +1,7 @@
+Id,Brand,Name,Model,Type,Rating,Color,Available,Price
+1,Apple,Iphone,14Pro Max,SmartPhone,9.9,Gold,Yes,1600
+2,Samsung,Samsung,Galaxy,SmartPhone,8,Black,Yes,1200
+3,Dell,Xps,9520,Laptop,9.9,Silver,Yes,2500
+4,Asus,ZenBook,ProDuo,Laptop,9.9,Black,Yes,2499
+5,Intel,Core,i9 12gen,Cpu,9,None,Yes,350
+6,AMD,XII,10gen,Cpu,6.6,None,Yes,100
