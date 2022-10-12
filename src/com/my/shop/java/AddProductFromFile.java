@@ -15,12 +15,11 @@ public class AddProductFromFile {
 	public static List<GetInfoProductFromFile> ReadProductFile(String productListFilePath) {
 		List<GetInfoProductFromFile> products = new ArrayList<GetInfoProductFromFile>();
 
-		try (BufferedReader br = new BufferedReader(new FileReader(new File(productListFilePath)))) {			
-			System.out.println(br.readLine().split(",").toString().repeat(0));
-			System.out.println("Store Products :");
+		try (BufferedReader br = new BufferedReader(new FileReader(new File(productListFilePath)))) {
+			br.readLine();
 			String productData = br.readLine();
 
-			while (productData != null) {				
+			while (productData != null) {
 				String[] splitedProductData = productData.split(",");
 				int id = Integer.parseInt(splitedProductData[0]);
 				String brand = splitedProductData[1];
@@ -56,5 +55,5 @@ public class AddProductFromFile {
 
 		return products;
 	}
-	
+
 }
